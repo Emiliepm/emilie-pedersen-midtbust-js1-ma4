@@ -16,7 +16,7 @@ fetchJSON();
 function createGameDetails(json) {
   console.dir(json);
 
-  //Done
+
   const headingPlaceholder = document.querySelector("h1");
   headingPlaceholder.innerHTML = json.name;
 
